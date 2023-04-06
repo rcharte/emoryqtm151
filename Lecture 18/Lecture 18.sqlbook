@@ -213,6 +213,7 @@ Import the data before proceeding!
 
 Count unique rows
 -- SQLBook: Code
+-- Active: 1679948349029@@127.0.0.1@5432@postgres
 -- COUNT(DISTINCT ) computes the number of unique rows
 -- "AS" is the alias or name of the statistic
 
@@ -231,6 +232,7 @@ GROUP BY party_name
 
 Count members of group
 -- SQLBook: Code
+-- Active: 1679948349029@@127.0.0.1@5432@postgres
 SELECT party_name,       
        COUNT(*) AS num_members       
 FROM us_congress_members
